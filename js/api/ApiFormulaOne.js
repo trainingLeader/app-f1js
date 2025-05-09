@@ -60,7 +60,7 @@ const patchData = async (datos,id,endPoint) =>{
     }
 
 }
-const deleteData = async (id,endPOint) =>{
+const deleteData = async (id,endPoint) =>{
 
     try {
         return await fetch(`${URL_API}/${endPoint}/${id}`, {
